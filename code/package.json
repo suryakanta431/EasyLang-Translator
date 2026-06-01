@@ -1,0 +1,18 @@
+{
+  "name": "easylang",
+  "version": "0.1.0",
+  "description": "EasyLang — Browser extension + transpiler: English-like syntax to Java",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js examples/sample.easylang",
+    "ext-dev": "echo 'Load extension/ in your browser as unpacked extension'",
+    "test": "npm run build && node dist/index.js examples/sample.easylang"
+  },
+  "keywords": ["easylang", "transpiler", "java", "browser-extension"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

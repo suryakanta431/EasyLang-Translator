@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "EasyLang Converter",
+  "version": "0.1.0",
+  "description": "Convert EasyLang blocks into Java and insert below the block.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["convert.js","content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "action": {}
+}

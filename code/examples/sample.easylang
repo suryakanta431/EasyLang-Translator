@@ -1,0 +1,84 @@
+import easylang {
+
+    # BASIC INPUTS
+
+    ask ("Enter First Number",a)
+    user input number a
+
+    ask ("Enter Second Number",b)
+    user input number b
+
+
+
+    # ADDITION
+
+    output ("Addition = ",a + b)
+
+
+
+    # SUBTRACTION
+
+    output ("Subtraction = ",a - b)
+
+
+
+    # MULTIPLICATION
+
+    output ("Multiplication = ",a * b)
+
+
+
+    # DIVISION
+
+    output ("Division = ",a / b)
+
+
+
+    # MODULUS
+
+    output ("Remainder = ",a % b)
+
+
+
+    # POWER
+
+    output ("Power = ",a ^ b)
+
+
+
+    # INCREMENT
+
+    output ("Increment A = ",a + 1)
+
+
+
+    # DECREMENT
+
+    output ("Decrement B = ",b - 1)
+
+
+
+    # COMPARISON
+
+    output ("A Greater Than B = ",a > b)
+
+    output ("A Less Than B = ",a < b)
+
+    output ("A Equal To B = ",a == b)
+
+
+
+    # ARRAYS
+
+    ask ("Enter Array Size",size)
+
+    user input number size
+
+    user input array numbers = [size]
+
+
+
+    # ARRAY OUTPUT
+    output ("Array Stored Successfully")
+
+}
